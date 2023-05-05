@@ -31,6 +31,7 @@ export const addProduct = product => (dispatch, getState) => {
       })
       .catch(error => {
         dispatch(addProductFailure(error.response));
+        console.log(error)
         reject(error.response.data.message);
       });
   });
