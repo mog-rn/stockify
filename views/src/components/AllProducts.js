@@ -81,7 +81,7 @@ function AllProducts(props) {
                     <Row>
                       <Col>
                         <Card.Text className='product-price'>
-                          {"$" + product.price}
+                          {"KES" + product.price}
                         </Card.Text>
                       </Col>
                       <Col>
